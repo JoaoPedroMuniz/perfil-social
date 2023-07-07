@@ -1,0 +1,51 @@
+@charset 'UTF-8';
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+
+main{
+    display: block;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    height: 896px;
+    width: 414px;
+}
+
+/*Foto de perfil!!!
+
+
+
+*/
+
+
+#links-sociais ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    width: 326px;
+    height: 49px;
+    border-radius: 4px;
+    border: 2px solid #B9D;
+}
+
+#icones-sociais > a{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 24px;
+}
