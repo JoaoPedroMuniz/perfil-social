@@ -1,8 +1,8 @@
 @charset 'UTF-8';
 
 :root {
-  --body-bg-color: #FAF7FD;
-  --purple: #BB99DD;
+--body-bg-color: #FAF7FD;
+--purple: #BB99DD;
 }
 
 *{
@@ -50,8 +50,7 @@ div#img{
     border-radius: 50%;
     background: url('https://github.com/JoaoPedromuniz.png'), lightgray 50% no-repeat;
     background-size: cover;
-    border: 2px solid var(--purple);
-
+    border: 3px solid var(--purple);
 }
 
 /*link para o instagram da pessoa da foto*/
@@ -65,6 +64,11 @@ div#instagram{
 div#instagram a{
     text-decoration: none;
     color: var(--purple);
+}
+
+div#instagram a:hover{
+    text-decoration: underline;
+    color: #8b67b3;
 }
 
 /*Aqui será colocado as redes sociais do nosso perfil*/
@@ -90,6 +94,12 @@ div#socialmedia a{
     box-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.205);
 }
 
+div#socialmedia a:hover{
+    background-color:#886fa09c;
+    color: var(--body-bg-color);
+    border: 2px solid #6b33a385;
+}
+
 /*Aqui será colcodo os métodos de contatos do nosso perfil*/
 
 footer#contatos{
@@ -101,6 +111,7 @@ footer#contatos{
     margin-top: 69px;
     flex-direction: row;
 }
+
 footer#contatos p a{
     margin: 0px 19px;
 }
